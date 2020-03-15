@@ -1,0 +1,9 @@
+{% extends 'base.html.twig' %}
+
+    {% block body %}
+        <div class="container">
+        <h2>create a new ligne</h2>
+        {{ include  ('property/admin/_form.html.twig', {form:  form, button: 'Create'}) }}
+
+        </div>
+    {% endblock %}
